@@ -1,0 +1,8 @@
+@media screen and (max-width: 1000px )
+{
+	.logo{width: 100%;}
+	.hero .frase { width: 100%; color: white; padding:30px ;}
+	.hero .frase h2 { font-size: 40px; }
+	.btn_menu{ margin-bottom: 10px; }
+	
+}

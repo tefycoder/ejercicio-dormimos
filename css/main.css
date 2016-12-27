@@ -1,0 +1,38 @@
+body
+{
+	font-family: monospace;
+}
+
+header{
+    
+    background: url('../img/si%20dormir.gif');
+    padding: 5%;
+    box-sizing: border-box;
+    overflow: hidden;
+    background-position:  center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: contain;  
+}
+
+.degradado{ background-color:rgba(215, 44, 44, 0.4); }
+.titulo{color: azure}
+
+.hero .frase{ margin: 0 auto; padding:30px;}
+
+.hero .frase h2{ font-size: 50px; color: white;}
+.hero .dormimos{  margin:0 -15px; color: white; padding: 80px 0px; }
+.dormimos select{ width: 50%; margin: 0 auto; text-align: center; }
+.dormimos label{ font-size: 18px; margin-bottom: 15px; }
+.btn_menu{ border:2px solid; }
+#salida{ color: white; width: 60%; margin: 0 auto; border:2px solid; }
+
+
+@media screen and (max-width: 1000px )
+{
+	.logo{width: 100%;}
+	.hero .frase { width: 100%; color: white; padding:30px ;}
+	.hero .frase h2 { font-size: 40px; }
+	.btn_menu{ margin-bottom: 10px; }
+	
+}
